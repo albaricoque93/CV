@@ -1,0 +1,31 @@
+- Tell us a little bit about yourself?
+
+My name is Alba Cervantes. I am a computational ecologist, specialized in terrestrial systems with more than 5 years experience working in research. For  the last three years I have been studying a PhD in the University of Canterbury. Currently, I am in the final stages of my studies and will submit my thesis by the end of the month. During my career, I also have ample experience teaching at a university level courses focused in experimental design and biological data analysis, which I have deeply enjoyed. After years in academia, I am ready for a change and decided to pursue a career in public service. The aspect of my work as a scientist that I have enjoyed the most is turning data into insights, which is why I believe  my gained skills and experience make me an excellent candidate for the role of Statistical and data analyst.  
+
+
+
+- Motivation for applying for this role at stats nz.
+
+
+I was motivated to apply for the role of statistical and data analyst at stats nz as it is focused on using statistical and computational tools to improve the collection, management, and analysis of data with the aim to improve the wellbeing of the people of New Zealand. After years doing theoretical research, I am excited for the opportunity to work with data and perform analysis that will have a direct application in a governmental agency. This role, besides being a good fit for the set of skills I have acquired, offers the opportunity to use data analysis to make a meaningful contribution to the place I now call home, New Zealand. Finally, I realize the value of data not only to tell stories but as a guide into how the future could look like. I believe stats nz shares that vision. 
+
+
+- Share something about yourself outside of work that is important to you.
+
+Thank you for asking this question, as I also extremely value the importance of working in an environment that supports people to have a meaningful life outside of work.  For me, that means expending time in the outdoors with people I love. Most of my life I have been a runner and a swimmer, and I ften spend my afternoons running in the port hills or swimming at Corsair bay. My partner and I love tramping, which allows us to further explore the beauty of New Zealand.  I am also an amateur watercolor artists, always keen to take a new course or workshop around the city.  Finally, since my family is overseas, I spend the rest of my free time talking to them. 
+
+
+- What is your experience analyzing data?
+
+During my career and more concretely my PhD, I have focused on analyzing biological data with statistical and mathematical tools to understand how natural systems operate. For my bachelor's degree I designed, implemented and analyzed experiments of seed dispersal in plants. As a research assistant, I gained experience in  managing, cleaning and wrangling datasets for reproducible analyses. Finally, during my PhD I focused on implementing modeling frameworks varying from linear models, mixed-effect, models and bayesian frameworks to understand how biodiversity is maintained in natural communities. One chapter of my PhD was recently published in the journal Ecology letters, in which I implemented bayesian mixed effect models to understand how pollinators forage alone and with other species. My years in science have given me plenty of experience analyzing different data sets, but perhaps most importantly, to be well versed in the tools needed to implement those analysis. I am an experience coder in R, have experience in python and shell script. I am also competent in version control using git as well as using Latex and R markdown to communicate the results of my analyses. 
+
+
+I am interested in Environment and Economic Collections
+Research and Development hub
+
+
+- Anything else:
+
+
+
+Something I believe you should know about me is that I really enjoy working in a team and interacting with people. Unfortunately, doing a PhD mostly involves working alone, but the few times I had the opportunity to collaborate closely with others have been one of the most satisfying parts of my career. I also really enjoyed teaching, and I believe statistics and mathematics can often seem intimidating without the right approach, which is why my approach to any collaboration is always to be kind first. Finally, I would like to thank you for giving me this opportunity and look forward to hearing from you soon. 

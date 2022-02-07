@@ -1,0 +1,171 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% I wanted a more consistent way of creating CVs/resumes,
+% so I made a few environments for adding content.
+% There's {education}, {research_exp}, and {employment}.
+% They take certain arguments, such as start and end dates,
+% which are automatically placed into position on the
+% document. Use a separate instance of each for each item
+% on your CV.
+% Publications are rendered with \fullcite, which pulls
+% bibtex items from references.bib.
+%
+% Published by Hannah W Richards
+% Creative Commons CC BY 4.0 License
+% Originally published September 2019
+% Revised March 2020
+% Revised November 2020
+%
+% hannah.willow.richards@gmail.com
+% Please use this template as you wish, and feel free to
+% send me an email if you were able to put it to good use!
+% I always like to hear from people. If you modify and
+% republish the template, please attribute me.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{cv}
+
+\usepackage[top=0.75in, left=1.0in, right=1.0in, bottom=1.25in]{geometry}
+\usepackage{biblatex}
+
+% You can place bibtex citatinos for your publications in the references.bib file, which is called here. You can download bibtex citations for your publications so that you don't have to type all the information in for each one.
+
+
+\begin{document}
+	\begin{center}
+%	    \textit{R\'esum\'e}\\
+        \textit{Curriculum Vitae}\\
+		{\Large \textbf{Alba Cervantes Loreto}\par}
+		Centre for Integrative Ecology, School of Biological Sciences\\
+		University of Canterbury, Christchurch 8140, New Zealand\\
+		albaricoque.cl.93@gmail.com\\
+		+64~22~508~6030
+	\end{center}
+	\vspace{-0.15in}
+	\rule{\textwidth}{1pt}
+	\vspace{0.05in}
+
+% The education environment is used like:
+%
+%   \begin{education}{start date}{end date}{degree}{field of study}{school name}{school location}{GPA}
+%
+%       Extra details of degree.
+%
+%   \end{education}
+
+  \textbf{Education}\\
+	\begin{education}{September 2018}{Present}{PhD}{Ecology}{University of Canterbury}{Christchurch, New Zealand}{Dr. Daniel B. Stouffer}
+	   % Thesis : Noisy interactions and their consequences for diversity maintenance\\
+			Expected date of submission : November 2021\\
+	\end{education}
+	\vspace{0.2in}
+
+	\begin{education}{August 2013}{June 2018}{Bachelor of Science with Honours}{Biology}{National Autonomous University of Mexico}{Mexico City, Mexico}{Dr. Carlos Martorell}
+	    %Thesis : Evaluation of a mechanistic model to characterize seed dispersion by wind in a semiarid grassland. \\
+	\end{education}
+	\vspace{0.2in}
+
+
+
+
+% The research_exp environment is used like:
+%
+%   \begin{research_exp}{start date}{end date}{title}{place}{advisor}
+%
+%       Description of research.
+%
+%   \end{research_exp}
+
+	\textbf{Experience}\\
+	\begin{research_exp}{February 2018}{July 2018}{Data collector and analyst}{Faculty of Sciences, National Autonomous University of Mexico}
+		\begin{itemize}
+    	    \item Carried out surveys, interviews and data collection to understand how agroecological techniques helped preserve land and water in the community of Vicente Guerrero, Tlaxcala, Mexico.
+    	    \item Synthesized and analyzed the information collected in the interviews and surveys to present to the general public.
+        \end{itemize}
+	\end{research_exp}
+
+	\begin{research_exp}{February 2015}{February 2018}{Research Assistant}{Faculty of Sciences, National Autonomous University of Mexico}		\begin{itemize}
+    	    \item Designed and implemented seed dispersal experiments in the field.
+					\item  Analyzed seed dispersal via abiotic and biotic agents with fieldwork, database construction and  statistical data analyisis.
+    	    \item Developed a mechanisitc model to predict distance traveled by native grasses during field experiments.
+    	    \item  Carried out the annual survey to record species richness and abundance in a species rich grassland in Oaxaca, Mexico. I identified plants in the field, carried out data collection and cleaned the data for analyisis.
+        \end{itemize}
+	\end{research_exp}
+
+
+
+
+
+
+% The employment environment is used like:
+%
+%   \begin{employment}{start date}{end date}{position}{place of employment}
+%
+%       Description of employment.
+%
+%   \end{research_exp}
+
+\textbf{Teaching}\\
+\begin{employment}{June 2020}{November 2020}{Demonstrator to Experimental Design and Data Analyisis}{University of Canterbury}
+		I worked as a demonstrator to help students understand how to design and analyze experiments in biology, as well as to develop their programming skills to carry out statistical tests and simulations.
+\end{employment}
+\vspace{0.2in}
+
+
+\begin{employment}{February 2019}{June 2020}{Demonstrator to Introduction to Biological Data analyisis}{University of Canterbury}
+		During 2 semesters, I worked as a demonstrator to help students understand basic statistical concepts as well as to carry out and interpret analyisis of biological data using the programming language R.
+\end{employment}
+\vspace{0.2in}
+
+	\begin{employment}{January 2018}{June 2018}{Teaching Assistant for Mathematics for Biology}{Faculty of Science, National Autonomous University of Mexico}
+	    Taught one class a week, which focused on understanding mathematical problems through a biological perspective. Demonstrated solutions to problems, proctored exams, and presented extra credit problems for the classes.
+	\end{employment}
+	\vspace{0.2in}
+
+
+
+
+
+
+	% Pull in your citations from references.bib, referring to them by their catchy names.
+	\begin{adjustwidth}{}{\rightedge}
+	\textbf{Publications}
+    \begin{itemize}
+        \item Cervantes-Loreto A., Ayers C.A., Brosi B.J, Stouffer D.B. \textit{The context dependency of pollinator interference: how environmental conditions and co-foraging species impact floral visitation}. Ecology Letters.
+        \item Cervantes-Loreto A., Pastore A., Clements A., Marraffi M., Mayfield M., Stouffer D.B.  \textit{The structural sensitivity of competition models: a probabilistic approach to species coexistence.} In preparation.
+				\item Cervantes-Loreto A., Marraffini M., Stouffer D.B, Flannagan S.P. \textit{Coexistence of alleles : insights of Modern Coexistence Theory in the maintenance of genetic diversity.} In preparation.
+    \end{itemize}
+    \vspace{0.2in}
+
+
+
+    \textbf{Conferences and symposiums}\\
+    \begin{itemize}
+        \item \textbf{Major Transitions in Evolution Symposium} National Autonomous University of Mexico, 2015. Attended lectures and presentations focused on the major transitions in evolution.
+        \item \textbf{Computational Technology Program} National Autonomous University of Mexico 2016. Attended lectures focused on the Python and Matlab programing languages.
+        \item \textbf{ Summer School of Mathematical Biology/ Models of Evolution}  ICTP- SAIFR, Sao Paulo, Brazil 2019. Attended lectures and workshop focused on developing tools to model biological systems as well as frontier research in ecology and evolution.
+        \item \textbf{New Zealand Ecological Society} Lincoln University, New Zealand, 2019. Presented:  \textit{
+				Pollinator functional responses: pollinator interference generates context dependent outcomes.}
+				\item \textbf{Ecological Society of America} Annual meeting, online 2020. Presented:  \textit{The structural sensitivity of competition models: a probabilistic approach to species coexistence.}
+    \end{itemize}
+    \vspace{0.2in}
+
+    \textbf{Skills }\\
+
+		\begin{itemize}
+			\item Fluent in English and in Spanish.
+			\item Advanced progarmming in $R$ for data wrangling, analysis and vizualization.
+			\item Intermediate knowledge of Phyton.
+			\item Comfortable using Linux shell.
+			\item Reproducible data science using git and version control.
+			\item Experience using \LaTeX.
+			\item Development and interpretation of frequentist and bayesian statistical models.
+		\end{itemize}
+
+
+
+	\vspace{0.2in}
+
+
+    \end{adjustwidth}
+
+\end{document}
